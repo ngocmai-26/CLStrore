@@ -1,0 +1,28 @@
+.blk-user-nav{
+    margin-top: 13%;
+}
+.blk-user-nav li a:hover{
+    text-decoration: none;
+    color: rgb(135, 135, 135);
+}
+.blk-user-nav li a{
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.blk-user-nav li {
+  list-style-type: none ;
+  padding: 5px 0;
+}
+.blk-user-avatar img{
+  width: 98px;
+  height: 98px;
+  text-align: center ;
+}
+.blk-user-bor{
+  border: 1px solid #ad8897; 
+}
+.blk-user-right{
+  border: 1px solid #ad8897;
+  padding: 20px;
+}

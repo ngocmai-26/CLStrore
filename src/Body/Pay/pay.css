@@ -1,0 +1,52 @@
+/********************/
+
+.btn-voucher {
+    background-color: #ffb0bd;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-left: 1%;
+    width: 100px;
+    height: 38px;
+    border: none;
+}
+
+.input-group-btn .btn-voucher {
+    color: white;
+}
+
+.btn-voucher:hover {
+    background-color: rgb(247, 164, 189);
+}
+
+.input-group-btn .btn-voucher:hover {
+    color: white;
+}
+
+.validate.form-control {
+    height: 38px;
+}
+
+.validate.form-control:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.add {
+    background-color: #ffb0bd;
+    border-radius: 9px;
+    height: 2.4rem;
+    width: 150px;
+    border: 0;
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+
+
+.addto {
+    text-align: end;
+}
+
+.input-group {
+    width: 100%;
+}
+

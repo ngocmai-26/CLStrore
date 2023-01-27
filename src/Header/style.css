@@ -1,0 +1,276 @@
+.header__top {
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 0;
+}
+
+.header__top-contact {
+    font-size: 14px;
+    color: #747576;
+}
+
+.border_right {
+    border-right: 1px solid #c7c7c7;
+    margin-left: var(--left);
+}
+
+/***Header center***/
+.header_center {
+    padding: 10px 0;
+}
+
+.logo_shop {
+    width: 100%;
+}
+
+.group-search {
+    justify-content: center;
+    padding: 15px;
+}
+
+.input_search {
+    width: 70%;
+}
+
+.shop-cart {
+    border: 0;
+    background-color: transparent;
+    font-size: 24px;
+    color: #2989ff;
+}
+
+.header__center-item {
+    padding: 15px 0;
+}
+
+.header__center-item-link {
+    color: #2989ff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/*****Nav*****/
+
+.header_nav {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.item-cart {
+    position: relative;
+}
+
+.cart_number {
+    position: absolute;
+    top: 7px;
+    left: 25px;
+    background-color: rgb(255, 88, 88);
+    padding: 0 6px;
+    border-radius: 50%;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.cart__item {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: #e7ecf3;
+    margin-left: -70px;
+    display: none;
+    z-index: 999;    
+    box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+}
+
+.nav-cart {
+    position: relative;
+}
+
+.nav-cart-list {
+    height: 480px;
+    overflow-y: scroll;
+}
+
+.item-cart:hover .cart__item {
+    display: block;
+}
+
+.item-cart:hover .display {
+    display: none;
+}
+
+.nav-cart-item {
+    margin: 5px;
+    text-decoration: none;
+    position: relative;
+    padding: 8px 0;
+    border-bottom:  1px solid #cccccc;
+}
+
+.cart__item ::-webkit-scrollbar-thumb {
+    background-color: #c10101;
+}
+
+.price-product {
+    text-align: end;
+}
+
+.car-item-img {
+    width: 100%;
+    height: 100px;
+}
+
+.cart-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0;
+}
+
+.cart-delete {
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    text-align: right;
+}
+
+.cart-btn-delete {
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.name-product {
+    
+    -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2rem;
+    width:1.4rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+    width: 40px;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+
+
+/******************/
+.nav-item {
+    color: #2989ff;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #024da8;
+}
+
+.account-item {
+    color: #247df8;
+    padding: 8px 0;
+}
+.dropdown_toggle {
+    position: relative;
+}
+.dropdown_toggle .dropdown_menu {
+    position: absolute;
+    margin: 5px 0;
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 2px;
+    display: none;
+}
+
+.dropdown_item {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #92c3ff;
+    color: #ffffff;
+    border: 0;
+    padding: 7px 10px;
+    width: 150px;
+    
+}
+
+
+
+.dropdown_toggle:hover .dropdown_menu  {
+    display: block;
+    z-index: 99999999999;
+}
+
+/*****Search********/
+.group-search {
+    position: relative;
+}
+
+.history__search {
+    position: absolute;
+    top: 60px;
+    width: 70%;
+    margin: auto;
+    z-index: 999999;
+}
+
+.history__search .history__search--group {
+    border-radius: 4px;
+    background-color: #dfdfdf;
+    border: 1px solid #0000;
+    max-height: 150px;
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+
+}
+
+.history__search .history__search--group::-webkit-scrollbar {
+    display: none; 
+  }
+
+  .history__search--item {
+    padding: 5px 0;
+    list-style: none;
+  }
