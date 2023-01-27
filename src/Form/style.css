@@ -1,0 +1,16 @@
+
+
+.form__user-input {
+    width: 50%;
+    display: block;
+    margin: 55px auto;
+}
+
+.form__user-input h2 {
+    text-align: center;
+}
+
+.form__right {
+    text-align: right;
+}
+
